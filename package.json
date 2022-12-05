@@ -1,0 +1,30 @@
+{
+      "name": "social-network-api",
+      "version": "1.0.0",
+      "description": "A social network API where users can share there thoughts and feelings",
+      "main": "server.js",
+      "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js",
+        "seed": "node ./utils/seedScript.js"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/blanfried/Social-Network-API.git"
+      },
+      "author": "Baer Lanfried",
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/blanfried/Social-Network-API/issues"
+      },
+      "homepage": "https://github.com/blanfried/Social-Network-API#readme",
+      "dependencies": {
+        "dayjs": "^1.11.6",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "mongoose": "^6.7.4"
+      },
+      "devDependencies": {
+        "@faker-js/faker": "^7.6.0"
+      }
+    }
